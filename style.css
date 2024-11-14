@@ -3,20 +3,34 @@
       padding: 0;
     }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
     html,
     body {
-      height: 100vh;
-      width: 100vw;
+      min-height: 100svh
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+/*       min-height: 100svh; */
+      gap: 2rem;
+      text-align: center;
       background-color: rgb(188, 225, 247);
+          
 
     }
 
     main {
-      height: 100vh;
-      width: 100vw;
+      max-width:20rem;
+      
       display: flex;
       justify-content: center;
       align-items: center;
+          
       
 
     }
@@ -26,7 +40,7 @@
       height: 60%;
       background-color: white;
       border-radius: 10px;
-      padding: 10px;
+      padding: 16px;
 
     }
 
@@ -34,11 +48,14 @@
       /* height: 60%;
       width: 100%; */
       border-radius: 10px;
+          height: auto;
+          max-width: 100%
 
       /* background-color: rgb(29, 133, 253); */
       display: flex;
       justify-content: center;
       align-items: center;
+      display: block
       /* padding-top: 10px; */
       
     }
@@ -71,7 +88,7 @@
 
 
     footer p{
-      font-size: 11px;
+      font-size: 11rem;
       text-align: center;
     }
 
