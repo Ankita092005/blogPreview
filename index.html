@@ -25,7 +25,7 @@
 
     }
 
-    .card {
+    main {
       height: 100vh;
       width: 100vw;
       display: flex;
@@ -44,7 +44,7 @@
 
     }
 
-    .qr {
+    img {
       /* height: 60%;
       width: 100%; */
       border-radius: 10px;
@@ -57,7 +57,7 @@
       
     }
 
-    .qr img{
+    img{
       border-radius: 10px;
     }
 
@@ -67,14 +67,14 @@
       /* padding: 10px; */
     }
 
-    .content h3 {
+    h3 {
       padding: 10px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       padding-bottom: 5px;
       text-align: center;
     }
 
-    .content p {
+   p {
       padding: 10px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       color: gray;
@@ -84,12 +84,12 @@
 
 
 
-    .attribution {
+    footer p{
       font-size: 11px;
       text-align: center;
     }
 
-    .attribution a {
+    footer a {
       color: hsl(228, 45%, 44%);
     }
 
@@ -99,11 +99,11 @@
         padding: 15px;
       }
 
-      .content h3 {
+      h3 {
         font-size: 1rem;
       }
 
-      .content p {
+      p {
         font-size: 0.85rem;
       }
     }
@@ -111,27 +111,29 @@
 </head>
 
 <body>
-  <div class="card">
+  <main>
   <div class="container">
-    <div class="qr">
-      <img src="images/image-qr-code.png" height="300px">
+   
+      <img src="images/image-qr-code.png" height="300px" alt="QR code leading to the Frontend Mentor website">
 
 
 
-    </div>
-    <div class="content">
-      <h3>Improve your front-end skills by building projects</h3>
+
+    
+      <h2>Improve your front-end skills by building projects</h2>
       <p>Scan the QR code to visit frontend Mentor and take your coding skills to the next level!</p>
-    </div>
+
   </div>
-</div>
+</main>
 
 
 
-  <div class="attribution">
+  <footer>
+    <p>
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/Ankita092005/" target="_blank">ANKITA</a>.
-  </div>
+    </p>
+  <footer>
 </body>
 
 </html> 
